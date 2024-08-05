@@ -6,6 +6,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 li {
@@ -14,10 +15,47 @@ li {
 
 a, button {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 #active {
     font-weight: bold;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+#friendspanel {
+    height: 440px;
+    display: block;
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+}
+
+#chatpanel {
+    height: 300px;
+    display: block;
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+}
+
+#inputpanel {
+    height: 100px;
+    display: block;
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+}
+
+#navbar {
+    width: 100%;
+    margin: 20px;
 }
