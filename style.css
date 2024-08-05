@@ -97,6 +97,14 @@ a, button {
     padding: 10px;
 }
 
+#settings1panel, #settings2panel {
+    height: 440px;
+    display: block;
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+}
+
 #navbar {
     width: 90%;
     padding: 20px;
