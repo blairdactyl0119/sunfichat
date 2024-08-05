@@ -42,7 +42,7 @@ a, button {
 }
 
 #chatpanel {
-    height: 300px;
+    height: 350px;
     display: block;
     background-color: grey;
     margin: 20px;
@@ -50,7 +50,47 @@ a, button {
 }
 
 #inputpanel {
-    height: 100px;
+    height: 50px;
+    display: block;
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+}
+
+#groupspanel {
+    height: 200px;
+    display: block;
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+}
+
+#channelspanel {
+    height: 200px;
+    display: block;
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+}
+
+#aboutmepanel {
+    height: 440px;
+    display: block;
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+}
+
+#custom1panel {
+    height: 200px;
+    display: block;
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+}
+
+#custom2panel {
+    height: 200px;
     display: block;
     background-color: grey;
     margin: 20px;
@@ -58,6 +98,6 @@ a, button {
 }
 
 #navbar {
-    width: 100%;
+    width: 90%;
     padding: 20px;
 }
